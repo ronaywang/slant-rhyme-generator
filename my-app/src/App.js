@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import * as React from "react";
-import { TextField, Typography, Button } from "@mui/material";
+import { TextField, Typography, Button, Fab } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 
 export default function App() {
@@ -20,13 +20,9 @@ export default function App() {
         </Typography>
         <div className="search">
           <TextField id="filled-basic" label="Word to rhyme" variant="filled" />
-          <Button
-            variant="contained"
-            endIcon={<SearchIcon></SearchIcon>}
-            style={{ margin: "10px" }}
-          >
-            rhyme
-          </Button>
+          <Fab color="primary" aria-label="search" style={{ margin: "10px" }}>
+            <SearchIcon />
+          </Fab>
         </div>
       </header>
     </div>
