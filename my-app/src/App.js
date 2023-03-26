@@ -16,7 +16,7 @@ export default function App() {
             fontFamily: "Nanum Pen Script",
           }}
         >
-          Write better raps
+          Rhymes Always Poppin'
         </Typography>
         <div className="search">
           <TextField id="filled-basic" label="Word to rhyme" variant="filled" />
