@@ -13,6 +13,13 @@
   }
 }
 
+@font-face {
+  font-family: 'Nanum Pen Script';
+  src: local('Nanum Pen Script'), url(../public/NanumPenScript-Regular.ttf) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
 .App-header {
   background-color: #cfe8fc;
   min-height: 100vh;
