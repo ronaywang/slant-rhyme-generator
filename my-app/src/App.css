@@ -13,15 +13,30 @@
   }
 }
 
+@font-face {
+  font-family: 'Nanum Pen Script';
+  src: local('Nanum Pen Script'), url(../public/NanumPenScript-Regular.ttf) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
 .App-header {
-  background-color: #282c34;
+  background-color: #e8f5ff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+
+}
+
+.search {
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+
 }
 
 .App-link {
